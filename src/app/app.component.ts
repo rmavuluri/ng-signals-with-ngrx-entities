@@ -7,7 +7,10 @@ import { RouterOutlet, RouterLink } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet, RouterLink],
   template: `
-    <a routerLink="/entities">Entities</a>
+    <a routerLink="/entities">Entities</a>&nbsp;
+    <a routerLink="/signalstore">SignalStore</a>&nbsp;
+    <a routerLink="/signalstore-feature">SignalStoreFeature</a>&nbsp;
+    <a routerLink="/rxjs-integration">RxJSIntegration</a>
     <router-outlet></router-outlet>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
